@@ -35,10 +35,10 @@ img{
 h1{
     text-align: center;
     font-size: 2em;
-    color: #ff00ff;
+    
 }
 h2{
-    color: #ff00ff;
+    
     font-size: 1.5em;
     line-height: 1.1;
 }
@@ -54,7 +54,7 @@ code{
 }
 /* deskotop section */
 
-@media screen and (min-width: 90em){
+@media screen and (min-width: 70em){
    
   
   .overlay{
