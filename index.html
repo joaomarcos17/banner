@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog JSGUY</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -24,15 +25,14 @@
                                 <a class="navbar-item is-active">
                                         Home
                                     </a>
-<<<<<<< HEAD
+
                                 <a class="navbar-item"
                                 href="https://joaomarcos17.github.io/joaomarcos.github.io/ " target="_blank">
                                 
-=======
                                 <a 
                                    href="https://joaomarcos17.github.io/joaomarcos.github.io/" target="_blank"
                                    class="navbar-item">
->>>>>>> 84c0aff425a9621c2305ce5304dc7886e76b3eef
+
                                         About Me
                                     </a>
                                 <a class="navbar-item">
@@ -321,8 +321,96 @@
                         </p>
 
                     </div>
+
+
+
                     
                 </div>
+
+            </div>
+
+
+            <!-- new article about subnet mask and cidr -->
+
+            <div class="card article">
+
+                <div class="card-content">
+
+                    <div class="media-content is-centered">
+
+                        <div class="media-content has-text-centered">
+
+                            <p class="title article-title">
+
+                                Subenet Masks and (CIDR) Classless Inter Domain Routing 
+
+                            </p>
+
+                            <img src="cisco.png" alt="cisco_networks">
+
+                        </div>
+
+                        <br>
+                        <!-- paragraph!! -->
+
+                        <p>
+                            <strong>Old Classful Addressing:</strong> rigid boundaries between octets.
+                            <br>
+                            <strong>Classless Inter Domain Routing (CIDR):</strong> removes previous octets boundaries of the Subnet Mask.
+                            <br>
+                            Conserves network addresses <br>
+                            Enables subdivision within networks.
+
+
+                        </p>
+
+                          <br>
+
+                         <p class="title article-title has-text-centered">Ping vs Traceroute</p>
+
+                            <br>
+                        <p> <strong>Limitation of Ping</strong> Some Organisations block incoming pings because of malicious hackers.
+
+                        </p>
+
+                        <br>
+                        <p class="title article-title 
+                        has-text-centered">
+
+                        Round Trip Time (RTT)
+
+                          </p>
+                          <!-- NEW ARTICLE -->
+                          <br>
+
+                          <p>
+                              All Ip packets have a time to live 
+                              <strong>(TTL)</strong> Maximum numbers of hops.
+                              <br>
+                              Be caution if you use round trip time as an indication of latency.
+                              <br>
+                              In many laptops the <strong>Wireless Interface</strong>
+                              can go into low power mode during idle periods and getting out of that mode can take sometime!
+                              <br>
+                              But what is possibly significant is the Wifi Devices regulate access to radio channel which can involve relatively long delays.
+                              <br>
+                              Wireless Traceroute can be slower than on cable connected.
+
+
+                          </p>
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
 
             </div>
 
@@ -333,7 +421,14 @@
             <footer class="footer is-success">
 
                <p class="has-text-centered">
-                 <button class="button is-success"><a class="has-text-white" href="#top">Back top</a></button>
+                 <button class="button is-link"><a class="has-text-white" href="#top">Back top</a></button>
+               </p>
+
+               <br>
+
+               <p class="has-text-centered">
+                   My Contact 
+                   <a href=""><i class="fab fa-github"></i></a>
                </p>
 
             </footer>
